@@ -1,0 +1,663 @@
+body{
+   		margin: 0px;
+   		padding: 0px;
+   	}
+
+
+      #loader{
+         width: 100%;
+         height: 100vh;
+         background:#fff url('../images/loader.gif') center;
+         background-repeat :no-repeat;
+         position: fixed;
+         z-index: 999;
+
+
+      }
+
+
+      .popup1{
+         width: 500px;
+         height: 250px;
+         background-color: white;
+         color: black;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         
+         border:4px solid red;
+      }
+#popupmain{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: 1000;
+   display: none;
+
+}
+   /*------------------------------navigationbar------------------*/	
+
+		#Navbar1 ul{
+   		list-style: none;
+   		float: right;
+         margin-left: 500px;
+
+   	
+
+   	}
+
+  
+
+
+
+
+		#Navbar1 ul li{
+			float: left;
+			padding-left: 10px;
+			padding-right: 25px;
+
+			text-decoration: none;
+			margin-top: 20px;
+		}
+
+		#Navbar1 ul li a{
+
+		text-decoration: none;
+		color: white;
+		font-size: 17px;
+
+		}
+
+		#Navbar1 ul li a:hover{
+			text-decoration: none;
+			color: grey;
+
+			
+		}
+
+      /*-------------------------------part1-----------------------*/
+
+
+
+#part1{
+   position: relative;
+
+   background:  url(../images/p8.jpg) no-repeat ;
+   
+   background-size:100% 100%;
+   
+   height:500px;
+   
+}
+
+
+   	.part1_div1{
+   		
+   		position: absolute;
+   		top: 40%;
+   		left: 25%;
+   		transform: translate(-50, -50);
+   		
+
+   	}
+
+   	.part1_h1{
+   		color: white;
+   		font-size: 50px;
+   		font-weight: bold;
+   	}
+
+   	.part1_p1{
+   		color: white;
+   		font-size: 14px;
+   		
+   	}
+
+   	.part1_btn1{
+   		width: 200px;
+   		height: 50px;
+   		background-color: orange;
+   		color: white;
+   		font-size: 20px;
+   		border-radius:30px;
+   		font-weight: bold;
+   		
+}
+ b{
+	color: orange;
+	font-weight: bold;
+	font-size: 30px;
+
+         margin-left: 10px;}
+
+/*---------------------------------part2----------------------------------*/
+
+
+.part2_div1{
+   padding-top: 70px;
+}
+#part2{
+   background-color: #2e2e30;
+   
+}
+.part2_h3{
+   font-size: 40px;
+   color: white;
+   font-weight: bold;
+
+}
+
+.part2_p1{
+   font-size: 14px;
+   color: grey;
+}
+
+.part2_div2{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: blue;
+   color: white;
+   margin-left: 170px;
+
+}
+
+
+.div2_h4{
+   color: white;
+   font-weight: bold;
+}
+.div2_p1{
+   color: grey;
+
+}
+
+
+/*----------------------part3-----------------------*/
+
+.part3_h2{
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.part3_p1{
+   font-size: 16px;
+   color: #A1A1A1;
+}
+
+.row1_p1{
+   font-size: 17px;
+   color:#A1A1A1;
+   letter-spacing: 1px;
+}
+
+
+.part3_row1 img{
+   width: 100%;
+
+}
+
+
+/*-----------------------------part4------------------------*/
+
+#part4{
+   background-color: lightgrey;
+
+}
+
+.part4_row1 img{
+   width:450px ;
+   height: 450px;
+}
+
+
+
+.part4_ul1 li{
+   font-size: 16px;
+   color:#A1A1A1;
+   
+
+
+}
+
+.part4_p1{
+    font-size: 37px;
+   font-weight:900;
+   letter-spacing: -1px;
+
+}
+
+.part4_p2{
+   font-size: 16px;
+   color: #A1A1A1;
+
+}
+
+
+/*--------------------------------part5--------------------------*/
+
+.part5_p1{
+   font-size: 37px;
+   font-weight:900;
+   letter-spacing: -1px;
+margin-left: 200px;
+
+}
+
+.part5_p2{
+   font-size: 16px;
+   color: #A1A1A1;
+   margin-top: -20px;
+   margin-left: 200px;
+}
+
+
+
+.part5_ul1 li{
+   font-size: 16px;
+   color:#A1A1A1;
+   margin-left: 200px;
+
+   
+}
+
+.part5 div img{
+   width: 450px;
+   height: 450px;
+}
+
+
+/*--------------------------------part6-----------------------*/
+.part6 img{
+   width: 450px;
+   height: 450px;
+}
+.part6_p1{
+   font-size: 37px;
+   font-weight:900;
+   letter-spacing: -1px;
+}
+.part6_p2{
+   ont-size: 16px;
+   color: #A1A1A1;
+   margin-top: -20px;
+   
+
+
+}
+.part6_ul1{
+   font-size: 16px;
+   color:#A1A1A1;
+   
+}
+
+/*----------------------------------image1-------------------------*/
+.image1{
+   background: url(../images/pic8.jpg) no-repeat ;
+   background-size: 100% 100%;
+   position: relative;
+   height: 400px;
+}
+
+.image1_btn1{
+          width: 200px;
+         height: 50px;
+         background-color: orange;
+         color: white;
+         font-size: 20px;
+         border-radius:30px;
+         font-weight: bold;
+
+         
+}
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+.image1_div1{
+   position: absolute;
+   top: 50%;
+   left: 20%;
+   transform: translate(-50, -50);
+   font-size: 25px;
+   color: white;
+   font-weight: bold;
+}
+
+
+#overlay{
+   background: red;
+   width: 200px;
+   height: 300px;
+}
+
+
+
+
+
+/*--------------------------------carousal---------------------------------*/
+.carou1{
+   text-align: center;
+}
+
+.carou{
+   background-color: blue;
+   
+   height: 500px;
+}
+
+.carousel-item {
+   padding-top: 100px;
+}
+
+.car1{
+   color: white;
+   font-size: 18px;
+   font-weight:bold;
+   
+
+}
+
+.car2{
+   font-weight:bold;
+}
+
+
+/*----------------------------------part7---------------------------*/
+
+
+#part7{
+   background-color: #2e2e30;
+   
+}
+.part7_h1{
+   color: white;
+   font-size: 50px;
+   font-weight: bold;
+   padding-top: 50px;
+}
+
+
+.part7_p1{
+   color: #a1a1a1;
+   font-size: 15px;
+   letter-spacing: 1px;
+}
+
+.part7_div1{
+   background-color:#333;
+   height: 500px;
+   width: 600px;
+   padding-top: 60px;
+
+   display: block;
+   
+
+
+}
+
+.part7_div2{
+   background-color:#333;
+   height: 500px;
+   width: 600px;
+   padding-top: 60px;
+   
+   display: block;
+   
+
+
+
+}
+
+.part7_div1_p1{
+   font-size: 15px;
+   color: #7d7d7f;
+   font-weight: bold;
+   padding-top: 50px;
+
+}
+
+.part7_div2_p1{
+   font-size: 15px;
+   color: #7d7d7f;
+   font-weight: bold;
+   padding-top: 50px;
+
+}
+.btn2{
+   width: 160px;
+   height: 60px;
+   background-color: blue;
+   color: white;
+   border-radius: 30px;
+   font-size: 15px;
+   font-weight: bold;
+   border: none;
+}
+
+.btn2:hover{
+   background-color:#333;
+   color: blue;
+   border: none;
+
+}
+.opacity{
+   width: 100%;
+   height: 400px;
+   background-color: blue;
+   opacity: 0.5;
+
+   
+}
+
+
+/*----------------------------------part8----------------*/
+
+.part8{
+   position: relative;
+   width:100%;
+   height:400px;
+   background-image:url(../images/wball4.jpg);
+   background-size:100% 100%;
+
+
+
+   
+}
+
+.part8_div1{
+      margin-top: 30px;
+      position:absolute;
+      z-index:1;
+      top:20%;
+      left:20%;
+      transform:translate(-50, -50);
+
+
+}
+
+
+
+.part8_div1_h4{
+   color: white;
+   font-size: 40px;
+}
+
+.part8_div1_p1{
+   color: white;
+}
+
+
+
+
+/*---------------------------footer-----------------------*/
+#footer1{
+   background-color: #222225;
+}
+
+.footer1_h5{
+   color: white;
+   font-size: 18px;
+   margin-left: 60px;
+   padding-top: 40px;
+}
+.footer1_p1{
+   color: #A1A1A1;
+   font-size: 14px;
+   margin-left: 60px;
+
+}
+.footer1_p2{
+   color: #A1A1A1;
+   font-size: 14px;
+   margin-left: 60px;
+}
+
+.footer1_div1{
+   margin-top: 50px;
+}
+
+.footer1_div1 a{
+   color: blue;
+}
+
+.footer1_div1 a:hover{
+   text-decoration: none;
+   color: blue;
+}
+.footer1_div2{
+   margin-top: 50px;
+
+}
+
+.foot6{
+   color: #A1A1A1;
+   font-size: 14px;
+  
+
+}
+
+.foot5 a{
+   color: blue;
+}
+.foot5 a:hover{
+   text-decoration: none;
+   color: blue;
+}
+
+
+
+#myBtn2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:black; /* Set a background color */
+  color:blue; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn2:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*--scrollbar--*/
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  /*border-radius: 10px;*/
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:orange ; 
+}
+
+
+
+
+
+
+/*---------------------------------------mediascreen--------------------------*/
+
+
+@media screen and (max-width:800px){
+
+
+   .part1_div1{
+      margin-top: -100px;
+      margin-left: -50px;
+   }
+
+   .part4_row1 img{
+      width: 320px;
+   }
+
+   .part5_p1{
+      margin-left: -10px;
+   }
+
+   .part5 div img{
+      width: 350px;
+      height: 350px;
+   }
+
+   .part6 img{
+      width: 350px;
+      height: 350px;
+   }
+
+   .image1_div1{
+      margin-top: -100px;
+   }
+
+
+	.part7_div1{
+      margin-left: -140px;
+
+   }
+   .part7_div2{
+       margin-left: -140px;
+}
+.part8_div1{
+   margin-top: -50px;
+   margin-left: -50px;
+}
+
+
+
+   
+}
+
+
+	
+
